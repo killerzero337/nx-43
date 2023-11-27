@@ -1,36 +1,38 @@
 # Ejemplos
 
-POST http://localhost:3000/api/users HTTP/1.1
+POST http://localhost:3000/api/productos HTTP/1.1
 content-type: application/json
 
 { 
-    "nombre": "Eva", 
-    "edad": 20 
+    "nombre": "Pan", 
+    "descripcion": "Barras en bolsa" ,
+    "precio": 2.12
 }
 
 ### 
 
-POST http://localhost:3000/api/users HTTP/1.1
+POST http://localhost:3000/api/productos HTTP/1.1
 content-type: application/json
 
 { 
-    "nombre": "Eugenio", 
-    "edad": 21 
+    "nombre": "Pan", 
+    "descripcion": "Barras en bolsa" ,
+    "precio": 2.12
 }
 
 ### 
 
-GET http://localhost:3000/api/users HTTP/1.1
+GET http://localhost:3000/api/productos HTTP/1.1
 content-type: application/json
 
 ###
 
-GET http://localhost:3000/api/users/6544f16661269657e5324e80 HTTP/1.1
+GET http://localhost:3000/api/productos/6544f16661269657e5324e80 HTTP/1.1
 content-type: application/json
 
 ###
 
-PUT http://localhost:3000/api/users/655a9b3e8b8747bc6a13a543 HTTP/1.1
+PUT http://localhost:3000/api/productos/655a9b3e8b8747bc6a13a543 HTTP/1.1
 content-type: application/json
 
 { 
